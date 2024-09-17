@@ -37,11 +37,11 @@ public class MuscleGroup {
         this.id = id;
     }
     
-    public void setName() {
+    public void setName(String name) {
         this.name = name;
     }
     
-    public void setDescription() {
+    public void setDescription(String description) {
         this.description = description;
     }
 }

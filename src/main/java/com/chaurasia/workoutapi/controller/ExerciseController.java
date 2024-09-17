@@ -16,7 +16,7 @@ public class ExerciseController {
 
     private ExerciseService exerciseService;
 
-    @Autowired
+    // @Autowired
     public ExerciseController(ExerciseService exerciseService) {
         this.exerciseService = exerciseService;
     }
